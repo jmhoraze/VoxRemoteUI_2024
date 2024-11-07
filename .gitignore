@@ -1,0 +1,64 @@
+## Ignore Android Studio Projects temporary files, build results, and
+## what so ever files   (Jeff + jm*20170202)
+
+# ...
+
+## replaced by:
+##   A .gitignore for use in Android Studio (May'2015)
+##   https://gist.github.com/iainconnor/8605514
+## updated jm*20170505 20241107
+
+# Built application files
+/*/build/
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+
+# Local configuration file (sdk path, etc)
+local.properties
+keystore.properties
+
+# Gradle generated files
+.gradle/
+
+# Signing files
+.signing/
+
+# User-specific configurations
+.idea/libraries/ 
+.idea/workspace.xml 
+.idea/tasks.xml 
+.idea/.name 
+.idea/compiler.xml 
+.idea/copyright/profiles_settings.xml 
+.idea/encodings.xml 
+.idea/misc.xml 
+.idea/modules.xml 
+.idea/scopes/scope_settings.xml 
+.idea/vcs.xml 
+
+# files *.iml generated through project import
+*.iml
+
+# OS-specific files
+.DS_Store 
+.DS_Store? 
+_mac/
+._* 
+.Spotlight-V100 
+.Trashes 
+ehthumbs.db 
+Thumbs.db
+desktop.ini
+
+# add'l folders, files  (Jeff_20170523)
+build
+.idea
+ 
+# a few more files  (jm*20170828)  
+APK
+.apk
+.lnk
+wavvoxlibrary/build
+app/build
+

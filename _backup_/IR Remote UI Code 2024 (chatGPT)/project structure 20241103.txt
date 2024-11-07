@@ -1,0 +1,18 @@
+
+
+IRRemoteControl/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/irremotecontrol/
+│   │   │   │   ├── MainActivity.kt
+│   │   │   ├── res/
+│   │   │   │   ├── layout/activity_main.xml
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   ├── themes.xml
+│   ├── build.gradle (App-level)
+├── build.gradle (Project-level)
+└── settings.gradle
+
